@@ -1,32 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <header>
+      <img src="data:image/png;base64,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" alt="logo">
+      <ul class="middle-nav">
+        <li>Kartu Prakerja</li>
+        <li>Karier.mu</li>
+        <li>Kelas.mu</li>
+        <li>Belajar Live!</li>
+      </ul>
+      <ul class="right-nav">
+        <li>Bantuan</li>
+        <li>
+          <button class="action-btn">Masuk</button>
+        </li>
+      </ul>
+    </header>
     <router-view/>
   </div>
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
