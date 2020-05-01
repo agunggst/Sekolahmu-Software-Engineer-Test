@@ -1,0 +1,100 @@
+<template>
+  <div id="app">
+    <header>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAaCAYAAACOyA9jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA1USURBVHgB7VsJWFXVFl77nHMHmUEZ70WxNMHggtpLm15kapZGznJRS9NeZT2bpb4mfH2RX6nZM7/KsvocAEVJM6vPVz3s5fSMmEwRCFEug6CMAnc45+y39mEQufeCKPq99+D/OPecs/fae6+919prr732AeAKQA8P9ae/DJ8I/ejT4KCHoAlYRlJvAyBDoB99GgI9cON44OXfYeypKkJA7oqYbp/NQ1Du5/h0N75uaUv3vmG2p6sbHyoBNw542FWemXQa+vF/DwH/doNErHAwNIMepIdBgoMg8lnknuMVdtS63KWoOAvY46F8z6CAiLiFHEeHyqhyEoE6SsGdE2E4ZvcrTx+A0HKjPvgzESheHP6q5Wp6cEQuEDgCIqRDoSW9eYjrlCMFLm/vP+FBLph5KKlW3UQJOSBztr0V2alVrBb/m+Nie74Q9uN/FYKDNILKNBBVKFq5OIj/uj6o4cX4wfxEQ73La9NNEOhtQRKaTu7M/xH60WchdEew/ZAv/HbKzT3I2wZ1jQIk7tJDzC3VED2iGnqKgFGzfXmJX0GARFECWlTAaiDcXomzbanIbLFeDN43Roe7ugW+1VVd6J/Vu1vFx44fT7UGhk6dxGvcn8TU86bsrY/hnXak1Ycb56MvNpNpvNomPVt0PPVMW96gETHuWq3rc1jfXbjsDkISM06fXyUqfFGeszmzc10BIZNDBE/v91n7VllYejZncyNcPoguMjYZ++9PKfmiNCdpkyOiwDHGQbwIn7JnSYDHyjOSz3Wm0RuMnyKfgygnJ5RmbstmabooY2o7ASXnZMHthfKMDU0dywWNmmMklJ/RTkZpYll2SiaWfRVfoxQmKZSbspOXdSynC49dAAKJaX1tUtVqHneqPLJMYOM/A5SaloyvgAAvbxB4gJG6ZhScDBPeiVgUYLjVWpGzZRNcBnSGeeOILP+AHXZVGFR+2C+9V5BUK3SRxpdKs5M/Yck8DgrepnVVHwq6sqbGm/FvpZIcpNBTQKVYoVTaRqePiI1D67kJB5PKQOKLjqe0Kw4O2CNEJh8juZa2lVB4gnE8kZ5CAX0u1C98urj4S3NbGUkleWGj01j7nEocgEmXrTw6w9yxqDhzW9qhIZCQsAUvu00KlagbEij956n4Et7slAcn3wTkNISKdH1bGopqVgcK4G31v+LDxraUIYbZQyWZX4uPfhfLECUfRXo7CuWB1tTCzu0hI5FI21Z/db1wVu3UQ3krLRj2/uYNhsGNYLHxStqccedg9d4AcNPKsP+N3C84SgP8RsQYoDtERwuEk1bjkysymC7KEE2oEIHyegL7eAh7oOVl8oeDkpWYP0si0vTOFxBpUfnjQeaumh1sMD4IHLdeGSMqv1iWk7SqLU9viF2MA/YJaxt52s8RMkemfCgnk4nIVwqSiKhIi0VPS7LvyNlu0BsgZKlyp0z2EKL/Ku8huJYgZJ2/YXq7okhE9TJ0UJyrhVPLM8TXDDNvPQdr9upwZQEorlTDngwfmBxZByq+ZZqKHC2kstiti6yv8fXH4RrNzI1M6fMVuSmZrVnHULE2hpwfOKw4d2eeXUFKzCafst2Qni46rDjLaZOoOLH3SoSm4WwUCaHPm3JT3m/nJ2zmcHT2Pyas/wQ+MGUlPddheTqJ1w9BhtgYNEJsiZmm1vDzMe1juAr4jpw/jFBpHrZ3Dpvaje0txv69jv3f47R/V48BKtBswPu0oCjjRBz8JS0mv3fgVPAny1zgQL47qAUZ4h8shamja+C24Y2KfausU0FPINgwAECgmT2j6Zup188e0J6JA+dQca4Cusg592DoYBcKXqAc/K0k+6LiMFC1ai5THNSWkxegOaGzX8NQlpPyNVqjHQrPMjwFcHXDrhakp7EGDhv63qKWXmNN4PsoXbX/LXAtQUhMUGTsXGx4PWsfehFOLc+IoCbQeVuhulEF7+3Rwdl6HkYEmqG4Sgv3htdDT1B8/OZKvSF/J8poCc7mV2Gg8LB+UNw2nHkHrZJ8sPJY8lmHBQn1DK4JXEYNcVLnLBvwnzlyVv0NeX8iREhFp8gNvZy1puxt79hVC2Rmyx321WbtqgUnkKmciuP9MFKG+4Ub/Zzy2Q0CbzIOwn4/wtiWZXFt1dHUCn2kcSe+/5VwXDzepzstLPFL9Ia4cgc5Xh1cOwcgKCTqwR44IFvxzrdmMOF5QC+gy91WmK4JJhpqIR+t0N5ML3huShnsOOwLHKHQMyTIktn4iqClokzIAhRaMAr3RdZ5NUdL9JGxSTZqWXM256vKTgU9saXVDgwDLp3mvXi71LEj4KGiZBfWPZC9UsLdPSRsRuDpE2kXB3/MX1Qg1vsqqiODCbqAbLWV8WpNS9ViE/MVrkh5hAF0FgXihb34pTw3NUNJ5OEzdIyf5CiZgpsJfWnOVie8kHjo8XgzUFxmCQZ0aSC0Kg7urKhka04U1C4roRfQ7Va9t1Cez7abdOngW+a9J1nhTtyx/RmTY9CsBuM9Xs1p2GxY2qlYHV4fMHe3c302UXRg/qgX0wn0cVbJVFHSUZJGs3rYsPsXFRZ+Z1FIMjaIEGlUtq9I5wVdgOfV7TNU7aptgisAtq1ppmQZ28Thkr0Dne8Alm4xi5ValeoI+s53UCKxHdUzjspjsTW4UWywy6DcM0p/nUAGuYSj/Erm07XXRchuS60pWfC7aaU9vShxreqAFpvvnI/Wi+soBI5X0eumPC0g9MyvUIQP7NoUErJQa/OwsBhLIsY9nsA40Jsd4z1oOurQYX6rRw4lpavQx1mujzB+Qzn6AwrM2OzqeRRz3m+vFcjPKLThaAUno3BXtCtWZ245MqF1wEpLHgw7BRnQY5hdPaagAoS1VEjXalTC2nZWW5cdFMwsn2HzXq8u3Go3ISgvfmT6LdVu64yhjUeIsnQ5hyknaV2wIe4BVL77cP5VUI5bbhWbra4OaDlOqICL4Qr94Ig47zO5STVtKRS4qA7LpGWIW4D5uh0mBEfOmxQSFRvSMY3FT3AzlNb6SgSi8YSrQ4nJp+IVvFNTbvJ+nCrvKhVTkhhomD+6jYgSWTnUZZbJ4uL9qKOKMLBoQC1b1MIZ+cxRPObyQJ5V2gRahUNfbH/RC5gdpHWTFkDvA/0EHneSeO7IcStxV1nglFAmme3P6BXIGBvTR8UN9xg52wf9s3gkiG7Lx3H7V0bGBtt1sTy6UXMjqSztFCmx6qOMK4kop1FZrpEGgBtnFZYr+xjcwnqYLWc6l9VX6kOE0FiHlqc4L6X4kgScYpAejUJOV16toEpEBycM657Og/xNYNiM28pPpJ02ZaWk6yPj/o4FlmGR9RgMHGoD8SOuyvssBDW4EJnejnb8Q6wiCAcy22q1rXLYMQsNCQmNtYsB1WrNtcwRDxw9NwyjRXdikpmzuESVnPy8zK5/UbFvorQS0PfBZSjhI+YfQi+i/NjmEzqDcUZpdtJPXRJahe2gERMvLoV0KvI11UPVqiItwVPFb0Jz+CV7vnLLQ3nr5ZJiKIgtC8fw8kaG3qUcKaAqoZi3CfnIwaPIjYg8Pc+OGi4pSOhgUEkFooaccnDlsjB+V+2y3ZhGTZ9BBShgjqOg1qxDC6L0WavFGAtQZvUw8AwvCUTI5/0aTuOxQCEGCjEOA8FYLhNjRdOqjqdecFC9H8+To454c6caxacQJH45czSwnW8dKQ6Dul5aixJh4zNcH5U/Ga4BSnOSf+qWJm/TeZkCO+Jx6tspikNgrSlny/fs/YqUB0/VMzD0lna59OW5yXmm7NA7JJnOx+b3IINFaCMaUYnYOvs9Li8zS7NTNrfRq2QVCotkdXWhYHNUVtKyhSdcZUs6U9A3L3Gu/ziaUoJtPIGPWIYEB6flz2HphUe21puyU2bKQOehxfoR/aAqtnIiLRPkEbRIr1rMjXdXZF1q3XBpNXfHG2pjKfMZcFIMZu+E453uboqKUuvQt1qjlKXKd1LAy6jCrXVxnOTQEqFG/q7kE66DM32RB5wADg8fObOb7RJeZdruZ2EEPkWi3F04gNuBfVZDSC02xPJLMe0fuIwb8QjpBbbTUFqjB0awxu1M75f7/WBCeC3oB1ov2aqnHvKVPtznN/7nfWk/+0XGzaBNtUVVBd9msQ/CtG78chn4n87mbO36tB2PK25o8HXl6i6YnTmr1xtM2FZe9nSVLU1/2IcM+hwCx0x1kW0D/LV4ft3QdO58deF3ds68gG72G+gMTcIZNx7f1d3UaTtU4PJpQZm6qaWw7CVr3JcFRMY2osNVirP4iGRp+Dd0B9w9FbVsw/9r0LqzqIF+KCjP+IbJ+FRXNO0hd3p4mAdY+QgMoI9C4/bQxnS/sXiy7h4zplqJMu/J8LTdP6r65Ulvh/vjKh5IQWYWyxUDaUmVeTv2QT/6HJye1+RtvMP9vnXBEa5aiB7oLt13vpGMrbnAb0afZQtRw+/sG5OOyxb0o8/B6VY9dPEBZlkOtl6JLDIqCORRdLFn4RLFAnnnoB99Gj0+KfYZO88D4+1PowUayBFosDXX7uq3PH0TV/yZAfusgvqoFjY2mL+tPZXW/98SfRD/AU7KrYZ6chX5AAAAAElFTkSuQmCC" alt="logo">
+      <ul class="middle-nav">
+        <li>Kartu Prakerja</li>
+        <li>Karier.mu</li>
+        <li>Kelas.mu</li>
+        <li>Belajar Live!</li>
+      </ul>
+      <ul class="right-nav">
+        <li>Bantuan</li>
+        <li>
+          <button class="action-btn">Masuk</button>
+        </li>
+      </ul>
+    </header>
+    <router-view/>
+    <div class="footer">
+        <div class="footer-container">
+
+            <div class="footer-icon">
+              <img src="./assets/sekolahmu_icon.png" alt="icon">
+              <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=mu.sekolah.android&hl=in">
+                <img src="data:image/png;base64,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" alt="google-play-store">
+              </a>
+            </div>
+
+            <div class="footer-content">
+              <div class="footer-menu">
+                <div class="menu-title">
+                  Tentang Kami
+                </div>
+                <div class="submenu">
+                  <div class="submenu-menu">
+                    Tentang Sekolah.mu
+                  </div>
+                  <div class="submenu-menu">
+                    Dewan Sekolah.mu
+                  </div>
+                </div>
+              </div>
+              <div class="footer-menu">
+                <div class="menu-title">
+                  Kartu Prakerja
+                </div>
+                <div class="submenu">
+                  <div class="submenu-menu">
+                    Cari Pelatihan
+                  </div>
+                  <div class="submenu-menu">
+                    Mitra Kolaborasi
+                  </div>
+                  <div class="submenu-menu">
+                    Panduan Prakerja
+                  </div>
+                </div>
+              </div>
+              <div class="footer-menu">
+                <div class="menu-title">
+                  Lainnya
+                </div>
+                <div class="submenu">
+                  <div class="submenu-menu">
+                    Blog
+                  </div>
+                  <div class="submenu-menu">
+                    Bantuan
+                  </div>
+                </div>
+              </div>
+              <div class="footer-menu">
+                <div class="menu-title">
+                  Ikuti Kami
+                </div>
+                <div class="submenu-followus">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCKaJP90erDda-EvyWcsa9ng">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATBSURBVHgBrZdfTNtVFMdvS1toglBcg2YxcXVioy9gRmKCosHwn1BQZh9E4xZ40AeNvJi54DJNlKjZNJtG0ek23R6GQlZE/oUEg8BTzeaLOqdOJGoUHZQaWiilfg701/wCpf/GSU7uufd37/mee+85556fQaVAPT09uXl5eQ9FIhGX0WgsWVtbu8NgMOTBBmQfzQzfvoEvWq3WrysqKv5LptOQ6OPQ0NAegJ5APIhSB+0K/ANAv9BfQI4gF4TD4aKsrKwixiyMXYF7TSbTycrKyr/SAp6enrb6/f4aFJ2imwtfZmdnMeJCbW3t9Xhr+vr6duXk5LRgSBvdElo/a9rr6+svpgTs9XrNc3Nzr7OwA+CfGXoBhf0c36pKgcbHx03BYPAx1h+mWwS/n52dfZT1C9sCs8i2vLx8ArEFa79ghx3s8E+VAfX399stFss7GC9GnLfb7W2lpaUh7btRPzkQCBxlYisTP7XZbAczBRVyuVz/sNMD6PpANiKniJNatwCPjIw0s8On4R4sfb6srCygbpA43iDgHYgDcnVERrX2bf2ox8bGbgmFQt8h/k77sFirdpA8Hs9uNjOBmM8VljY0NMyY5APh8Kza8N7X4oFyGoVYnI9RhmQg6Ao2NjbOMj+ijTU1Nf0xODh4iNM8R5hJeL5qwKFy8UIvE30cy/167yWOnYwfQ2xQaRB+8j0gR2pqaj7XxsTbcdwpvtmJkmIjDlWO8rv49qEelOPfRTORLqgQ+u7mSD8ZHh6u1MZEN6Bn+eZYWVkpNyI0w5KR+vSLV1dXxSMLVYbEWitAnXDsesxm8wX6IYxqEuB93MvVOBmpPIHecXhWJQd3Tk5O2rQ+KfRftZFy7zViwe3k2avxLN5OIWtO0txH2wWHE8wzLS0tmTfplTzvkB3nI8yrNEmSS11d3WHWF9MdhlNKqfK4CKYJQenvIQO6HuWsVCbLSyqtxLGPo7apNInwsBMe+xHfVBs5IFW6mY36TFhwDS/bG2fC8nYr5ekj9k/Q3qYSELEcxri1TcNFjM8YAb0k3heN2xhhlTeBzoZkoELoniWLxZ5DebHQKwWDV5zLw5iFkHLrF3H8Z2jmVIaE8gg7exn9MacjMz5KX7zcYyR9TTDnGnxA0po2qaqq6jeMaZX0p9IkiRJ5jaqrq7/Uxrq7u81SkSBeWVxcnFz3ZnJyJxM7EVsJk169EjGGWCwhuRdIcZcMFOUB+FtKnkX9OOnzcQw6jfgGYfiSBrwHnXKnCzjDg/KaqB2kaDXyFeKt4NzD4/H3eiGABb9yp1Kk7eUejkuxp3aIRBeg7yLeCbcJqIzHKpD5+flRmuNwo8/ne3snwKXUoVp9iyPez07f4xo92rcYsNvtDlCQHUKUO27HAU5vDrF0aHR0dDelzhlAn6R7niLiFf33Lc4yMDBQgCMdQXwGK3/EUbrw/M/SLG8fQexivSSmY2zoRX2FGRdYG8cLXbQfYfFNKLiMfIod9FIExi3oxYF4b93MfYpuMev8yO1Op3PE4XAEtwCoBDQ1NVXIfT9HImih65RHXE4B+Se18TDI+gJY/qXkuyWaEz6Gz0lRt53ulF6l6E/bAyhrprsPlvDLp5WCzidgGHcJ2YMHp/TT9j9z7lLgo4xyOwAAAABJRU5ErkJggg==" alt="">
+                  </a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sekolah.mu/">
+                    <img src="data:image/png;base64,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" alt="">
+                  </a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sekolahmuid/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATFSURBVHgBvZddTJtlFMdfSosUWhirH2DUbYz5lahb5EYiMSQkEsAW2sEutqiTRWJ0mu1Gp8miNy67cKhzUbKhM5mJ0gFr+TYoxhHiRc1m4sWGaO2FEJ3dSltoaSn4O1hIIW3fzshOcnKe93nOOf/n4zznOW+WkgF1dnYa8vLynlpcXDRrNJqdS0tLpXQXZEG0Z2h7kD9qtdoLer3+YlVVVVDNZ1a6wcHBwa2A7YP387kNjsBX4N/AvAGYqBUhd/C9g3YOfJV2VywWO2mxWP68KWBWqM/NzX0aB2f4NOD4Mu2zOp2us6am5noym+7ubhPjVvRa0N9FV2BhYeFAY2PjhYyA29vbdSUlJcdxcIjPSeTr+fn5TrZvQcmARkdHtXNzc02s+Ai299P1CRN4mwn4UgL39PRs4pw+pGnDyDk/P3/YZrNNK/+BRkZGTKFQ6BSrb8LXFyympby8PJoUuLe3930UD6J42mQyHaqoqAilcoxelt1uL4DyVvo8Hs/fra2t0YTV5waDwTaaz+KznZ14q7m5ObQG2Ol0NjD4pSzcYDDsZ2vDqUDRvR1xCq5U/g0oBdsgEb+7rq7OlagbBz9Lcw/jDYw7pF8T35a7MOxgFRNch1fSgY6NjRnR/Q5uhktgkzBDIm9bry++uBWH8f0r8kx/f/+WVeBwOHwQkc+M3q2urvYqacjn8+1EPLy+X65WNBpNasO1mmJSb8BGgm7fMjBbYWAmu+m8TPSeV1QIw2JlbWychu8BuIxg/CGVHccn1+oncF6QhKQNBAKVEvbwi5lcmezsbCWeOFZWetFsNv+hZie+iY3PwfmISVRq6ZOgiuCwO53hwMBAQSQSeYjd2Y7+aj/HU8ZteIK7GsPHz0xiLpUP0u5XXLE2dC0anDyOs4lUGSmBynH8LfrHEjtZ8VHEOPd/CHlfOgfx+JGUu0uCawvOJhUV4mzT5nUmEGYlapMXkjy/TYtBoST8DAxkC6+gfwf69yb0y/n66HMD7FVzgr3oFmriH1lqBlNTUy62uobmO+uGjtFfBe8lK8XU/BATiyIluGaYwSY1g3gqvNbX1+dfF9X+2traa0qGhP5mwZQVu+FS5daRvN0eAb5E48GhoaHNygZTPMcLsEuuk4Pl5xAYe5QNJs7XitDBDg1Z5HsabsCfl0dc2SCSAgOMAzSvzs7Ojmnihdln8GOkT4uyQUQh0CQY8HmiP7h8ndjmcwh5T487HI67lf+Z5Gw50jdZcYAX7KT0LQNTD/1OpxRp2wE/IY93KifozMLeBA6nAx0fH9fjU4qGMrjFarX+tQosxJv8NeIE/Axn8IEYJHPkdru/ycnJeWSFeQodqUClWvV6vW3xZ/djHpBV3TUZy+Vy6aanp6US2YuinW15mRmqpsFkJEdGNpMaro7PLvy9Vl9ffyMpsBCZqQhxFIOXkL9IVcJzZr+Z8tbv9zfKKwbLE/pecXHxkcQKMynwSj+1kZkXqUPKFb6loO/gPe5KtQPxAJJc8BzyUQkkuT5Go3E4WQ2X9nEYHh6+kzN8FUc2Ph/AUZT2BHKSnbgu/05MrghRCsu4VJySEz5lm89RUXpS+VZ9lYSkRqIeexKQBgClcNhKdyG8BOAMQJLvL8EOVpjRT9s/OSNZ53u+4HYAAAAASUVORK5CYII=" alt="">
+                  </a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sekolahmuid">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM6SURBVHgBtVfbdZtAEF2w9B11EFxBSAf4W49IFViuQHIFggoiVRBUgXT0+BbqgFQQ3AH51iv34sHmYFiILc85e5B2l7kzszN3FkPVkMVi0cLDbjabPy6Xi4PfFkZLlmOM0DCM8HA47AeDwbKOTqMKsNFojPBzLEApSHQ6nZ64xzRNzn+jYdzDNRjnH4/HOYyI/ht4vV4T0BXAAMPrdruB0gjecQA6BPg9DTifz16v1/NrA69Wq594cVwXMC+IlHVzc7ODDguGTAH+WAm82Wx+0WoBdNUHBBFw8ZjAAL/T6Txk18zsH3p6LVCK6PCok7oLN2FhCAsvYuVVhTqpGxjjdC4JdXomyFCFkNyqTxAA7/Cwke23yPa4wUmUzD0eFurwXaAwvA+jbSmzoKSMPAw6R6/dxGOE4A8mgnwCULbb7aTdbntK74mT/ic4HksSDc74e8HexGsToH1J+3mBJy3UIs9nwePIrzMvsqAU6KEuehXJet5rkpJtCgXGFbXaB13u8opIFGUvYG2fJw/BiOFM3xD3OXlXpABgfhZAKDHE2Mu8XfQe9BWSk+C1mFw2LJgXbWKoofyLeubopCkwlHhYmO+rconLFoD1xEQ01Sv5vxGmPYBs9dqJ6kqoWYuoz1QVAs8elMaDIilK1LwQOAZ5fC3bwIQAuFcXPK1lzZYkwgSO5NyqpFa46a2uD+N82btDE4e9VyWZmQqIZQqFDLnu7ChBjebCZP4NA0xeVVps4rrdCB/ZKNBsCcBIA806q8QhFoCDBjaHYBKe30Q9N/4XAV3aABvJUTgl+mLmAKOiKgQkxLqPeC8zWTKwYEbFea/B0bzAeZKljAyJgzkRsbnj+UjerQNKymVfTjM+6U4AniLkoyKvJVF8Ge8WuQpFcMTnf1OUx1Iy9HqirizUyUbEy1+a8S8EIuFiyN1rgosul7qzTeMNkWeagovS8NQHJAXluQJ0mF0r6yD0fiRncqcjhCJh2aBSCOpgzODAOL+n9EIvvTc5G2YwDCAjBao+oLbMqj5hLChiCfDLwFKZ7yQQyl/uIc9LnaddjHtmKLMpk7ZMtxY4K3JFclTmO0mWqDzCIPUuSUg6wFT+AcGA7jJLmr1vAAAAAElFTkSuQmCC" alt="">
+                  </a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/sekolahmu">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMGSURBVHgBtVfJdeJAEG0JcVcImggGIjC+A4YIgAjAEQARDERgEQFmuQMRmIlgFILubPO/XGL6ydqsEfVeP1Wr1fVr6+qSoXLQcrm08ahVq9WX2+3WAO9g2LLsYxwNwzieTqdDt9t9zyPTyAK0LGsIdqQBKYB7APKFt8E7d4GG4eGdez6fF1DC+zbwZrMh4EQACbLAeIfAIwT6MQrWANjH9ImKUIHr9Tptt9tubuD1ev0LG0cCOAfYLAqWRFDCgRJ9sGPOocwM4K+ZwNvt9o2aU2PE7DnNXVkKVCqVnVjvNpvNgb5u6hNaKu5iotSLgpK493K51CmLMilbXzc0UFr5JpbW87o2ixh/WP5By6HAK9w+uwPrbkE8f0Qt5XpohSpAEvcP8iLfD1yNlz05EtOocHoC6384yKsCRJnI8DlY2zRNJu1njMNkgjZudBPWanH8dwnAdLEP4CHdb8KKjli7j3OlbNhzCF+I6F7sZy0IzrzFEghgWrNI2ODh8axKIFjLcjqEAh0Lk598yYoU9/FqtZpBsRfyOB7Qo3tEVdtxDmW554D1IXhHwjVISkJiwFoq8MQY17gh5fjYUgSYmWG9bnBAAMO0JC/hajB75VL5QsRgnQfrENjGpNCZFStdPAciMFAUR7OftEcuF9tS/0H0VFgKkaQUSOtVGL40osU+BNiqAGlWMv65vMZrlJgE5v3pJMWlTCKG5MLRRGof+JJnSz2eAgxg/jblbHHSUQ8mtE49wdqbcn5Zynpx7sZ7T0nlAl/4xuJFAcCGHN3PvgxFYoKicONTPYggf0wMjAnnwSURKeCOKplE5kS/iAJgVhS8nIK1EYddmRkujUBQYtn8heX03vqgENDqOY8WMrwUcOk+d3KE5nrH+aXZQwVy8WGvzGaPNx9A+/p6bHuLBKD1Q5lOsprzCGD0J2DearVG0e8SG3ppc8Zhcw5+Dw/wzo5t6NW/X5y+AAZ5IyFUuYFFYNCcQ1hP/01J+4VROX8CUoF1khapAZY3D0uf/tPmYbD0xv7ixNFf4qPrh767MasAAAAASUVORK5CYII=" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">&copy; 2020 Sekolah.mu All Rights Reserved</div>
+    </div>
+  </div>
+</template>
