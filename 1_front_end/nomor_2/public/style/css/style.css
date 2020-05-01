@@ -189,4 +189,55 @@ header .right-nav {
   box-shadow: 0 12px 12px rgba(0, 0, 0, 0.4);
 }
 
+.footer {
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  color: #8f8f8f;
+}
+.footer .footer-bottom {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.footer .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.footer .footer-container .footer-icon {
+  margin-right: 80px;
+}
+.footer .footer-container .footer-icon img {
+  display: block;
+}
+.footer .footer-container .footer-content {
+  display: flex;
+  text-align: left;
+}
+.footer .footer-container .footer-content .footer-menu {
+  margin-right: 50px;
+}
+.footer .footer-container .footer-content .footer-menu .menu-title {
+  font-weight: bold;
+}
+.footer .footer-container .footer-content .footer-menu .submenu-menu {
+  font-weight: lighter;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.footer .footer-container .footer-content .footer-menu .submenu-menu:hover {
+  text-decoration: underline;
+}
+.footer .footer-container .footer-content .footer-menu .submenu-followus {
+  margin-top: 15px;
+}
+.footer .footer-container .footer-content .footer-menu .submenu-followus a {
+  margin-right: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */
