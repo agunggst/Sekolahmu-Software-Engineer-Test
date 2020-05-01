@@ -11,4 +11,4 @@ return Fibonacci(number - 2) #1
   + 
   Fibonacci(number - 1) #2
 ```
-   Sehingga b = 2, dan depth dari recursion treenya berbading lurus secara linear dengan inputannya, maka dari itu didapatkan notasinya adalah O(2^n)
+&nbsp;&nbsp;&nbsp;Sehingga b = 2, dan depth dari recursion treenya berbading lurus secara linear dengan inputannya, maka dari itu didapatkan notasinya adalah O(2^n)
