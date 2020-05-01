@@ -99,7 +99,10 @@ class UserController {
     let data_regis = {
       name: request.body.name,
       email: request.body.email,
-      password: request.body.password
+      password: request.body.password,
+      phone: '',
+      status: '',
+      profile_pic: ''
     }
     User.findOne({
         where: {
@@ -120,10 +123,9 @@ class UserController {
         let token = jwt.sign({
             id: result.id,
             name: result.name,
-            email: result.email,
-            is_admin: result.is_admin
+            email: result.email
           },
-          process.env.JWT_SECRET
+          'secret'
         )
         response.status(201).json({
           access_token: token,
@@ -139,6 +141,7 @@ class UserController {
     let data_update = {
       name: request.body.name,
       email: request.body.email,
+      phone: request.body.phone,
       password: request.body.password,
       profile_pic: request.body.profile_pic,
       status: request.body.profile_pic
@@ -172,7 +175,7 @@ class UserController {
     User.findByPk(request.params.id)
     .then(result => {
       if(result){
-        User.destroy({
+        return User.destroy({
           where: {
             id: request.params.id
           }
@@ -183,6 +186,11 @@ class UserController {
           message: 'User not found'
         }
       }
+    })
+    .then(result => {
+      response.status(200).json({
+        message: 'deleted'
+      })
     })
     .catch(err => {
       next(err)

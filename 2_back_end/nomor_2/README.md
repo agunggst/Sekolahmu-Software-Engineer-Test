@@ -1,5 +1,8 @@
 # nomor_2
 
+## Documentation
+[click here](https://documenter.getpostman.com/view/10570997/SzmZbf6f)
+
 ## Cara Penggunaan
 
 ### Step-step:
